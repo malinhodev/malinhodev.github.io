@@ -8,10 +8,10 @@
 
 /* Variables */
 :root {
-  --main-color: #FB542B;
+  --main-color: #5e17eb;
   --main-text-color: #FFF;
   --border-color: #999;
-  --bio-bg-color: #1E2A3A;
+  --bio-bg-color: #19222e;
   --bio-border-color: #293544;
   --about-bg-color: #111821;
 }
@@ -45,6 +45,10 @@
 }
 
 /* Bio container */
+.logo{
+  max-width: 100%;
+  width: 200px;
+}
 #bio-container h2 {
   margin-bottom: 25px;
 }
@@ -61,6 +65,7 @@
   width: 175px;
   height: 175px;
   border-radius: 50%;
+  border: 3px solid var(--main-color);
   margin-bottom: 25px;
 }
 
