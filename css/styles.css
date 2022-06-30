@@ -8,12 +8,12 @@
 
 /* Variables */
 :root {
-  --main-color: #5e17eb;
+  --main-color: #510273;
   --main-text-color: #FFF;
   --border-color: #999;
-  --bio-bg-color: #19222e;
+  --bio-bg-color: #bebfb8;
   --bio-border-color: #293544;
-  --about-bg-color: #111821;
+  --about-bg-color: #19222e;
 }
 
 /* General */
@@ -191,6 +191,12 @@
   margin-right: 10px;
 }
 
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 
@@ -237,6 +243,14 @@
 
   .skills-box i {
     font-size: 60px;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+  footer p{
+    margin: 8px auto;
   }
 
 }
