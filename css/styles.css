@@ -16,6 +16,7 @@
   --about-bg-color: #19222e;
 }
 
+
 /* General */
 .italic{
   color: var(--bio-bg-color);
@@ -132,6 +133,7 @@
 }
 
 #btn-projects {
+  cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   color: var(--main-text-color);
@@ -199,29 +201,89 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+/*
+** 
+** janela modal
+**
+*/
+#modal{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,0.6);
+  z-index: 999;
+}
+#containerModal{
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  background: rgb(255,255,255);
+  border-radius: 3px;
+  padding: 30px 10px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0px rgb(200,200,200);
+}
+#headerModal{
+  width: 100%;   
+}
+#headerModal h2{
+  font-size: 1.5rem;
+  color: var(--main-color);
+}
+#contentModal{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  font-size: 1.4rem;
+  color: var(--main-color);
+}
+
+.card img{
+  max-width: 100%;
+  width: 150px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.card h3{
+  margin-bottom: 20px;
+}
+#footerModal{
+  width: 100%;
+  padding: 10px 0;
+}
+#footerModal #confirmModal{
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  padding: 8px 0;
+  background: var(--main-color);
+  color: var(--main-text-color);
+  border: 2px solid var(--main-color);
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: all .4s ease-in-out;
+}
+#footerModal #confirmModal:hover{
+  cursor: pointer;
+  background: var(--main-text-color);
+  color: var(--main-color);
+}
 
 /* Mobile */
-@media(max-width: 450px) {
-
-  #container {
-    flex-direction: column;
-  }
-
-  #bio-container {
-    min-height: auto;
-    border-right: none;
-    border-bottom: 5px solid var(--bio-border-color);
-  }
-
-  #bio-container h2 {
-    display: none;
-  }
-
-  #bio-container p {
-    max-width: 60%;
-    margin: 10px auto;
-  }
-
+@media(max-width:600px){
   #about-container {
     text-align: center;
     padding: 30px;
@@ -254,6 +316,30 @@ footer{
 
   footer p{
     margin: 8px auto;
+  }
+}
+@media(max-width: 450px) {
+  .logo{
+    width: 250px;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+
+  #bio-container {
+    min-height: auto;
+    border-right: none;
+    border-bottom: 5px solid var(--bio-border-color);
+  }
+
+  #bio-container h2 {
+    display: none;
+  }
+
+  #bio-container p {
+    max-width: 60%;
+    margin: 10px auto;
   }
 
 }
