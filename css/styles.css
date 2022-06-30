@@ -17,6 +17,9 @@
 }
 
 /* General */
+.italic{
+  color: var(--bio-bg-color);
+}
 .highlight {
   color: var(--main-color);
 }
