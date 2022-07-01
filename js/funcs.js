@@ -11,11 +11,11 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                 '</div>'+
                                 '<div id="contentModal">'+'<div class="card">'+
                                     '<a href="https://malinhodev.github.io/malinhodevcalculator.github.io/" target="_blank"><img src="img/calculadora.png" alt="foto calculadora malinhodev"></a>'+
-                                    '<h3>Calculadora</h3>'+
+                                    '<h3>Calculadora vanilla JS</h3>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
                                     '<a href="https://malinhodev.github.io/todomalinhodev.github.io/" target="_blank"><img src="img/to-do.png" alt="foto app to-do malinhodev"></a>'+
-                                    '<h3>App Lista de tarefas</h3>'+
+                                    '<h3>Lista de tarefas</h3>'+
                                 '</div><!--card-->'+
                                 '</div>'+
                                 '<div id="footerModal">'+
