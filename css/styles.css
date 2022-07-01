@@ -131,6 +131,9 @@
   max-width: 75%;
   margin-bottom: 10px;
 }
+.butoes{
+  display: flex;
+}
 
 #btn-projects {
   cursor: pointer;
@@ -142,7 +145,7 @@
   border-radius: 5px;
   text-decoration: none;
   transition: .5s;
-  margin: 25px 0;
+  margin: 25px 8px;
   padding: 12px 10px;
   width: 150px;
   text-align: center;
@@ -286,6 +289,10 @@ footer{
 
 /* Mobile */
 @media(max-width:600px){
+  .butoes{
+    flex-direction: column;
+  }
+  
   #about-container {
     text-align: center;
     padding: 30px;
