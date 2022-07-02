@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Variables */
 :root {
   --main-color: #510273;
@@ -251,12 +255,18 @@ footer{
   color: var(--main-color);
 }
 
-.card img{
-  max-width: 150px;
-  width: 100%;
+.card ion-icon{
+  font-size: 120px;
   margin-bottom: 10px;
   cursor: pointer;
-  border-radius: 20px;
+  transition: .5s;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.card ion-icon:hover{
+  color: var(--main-text-color);
+  background-color: var(--main-color);
 }
 
 .card h3{
