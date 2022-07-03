@@ -9,13 +9,18 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                 '<div id="headerModal">'+
                                     '<h2>Portifólio</h2>'+
                                 '</div>'+
-                                '<div id="contentModal">'+'<div class="card">'+
+                                '<div id="contentModal">'+
+                                '<div class="card">'+
                                     '<a href="https://malinhodev.github.io/malinhodevcalculator.github.io/" target="_blank"><ion-icon name="calculator-outline"></ion-icon></a>'+
                                     '<h3>Calculadora vanilla JS</h3>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
                                     '<a href="https://malinhodev.github.io/todomalinhodev.github.io/" target="_blank"><ion-icon name="list-outline"></ion-icon></a>'+
                                     '<h3>Lista de tarefas</h3>'+
+                                '</div><!--card-->'+
+                                '<div class="card">'+
+                                '<a href="https://malinhodev.github.io/themedark/" target="_blank"><ion-icon name="sunny-outline"></ion-icon></a>'+
+                                '<h3>Theme-Dark</h3>'+
                                 '</div><!--card-->'+
                                 '</div>'+
                                 '<div id="footerModal">'+
