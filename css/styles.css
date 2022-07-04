@@ -94,6 +94,12 @@ a{
 #social-container li a {
   color: var(--main-color);
   font-size: 30px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+#social-container li a:hover{
+  transform: translateY(-8px);
 }
 
 #email-container {
@@ -227,6 +233,10 @@ footer{
   z-index: 999;
 }
 #containerModal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 80%;
   max-width: 600px;
   height: auto;
@@ -249,12 +259,14 @@ footer{
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-  height: auto;
   padding: 30px 0;
   font-size: 1.4rem;
   color: var(--main-color);
 }
-
+.card{
+  display: flex;
+  flex-direction: column;
+}
 .card ion-icon{
   font-size: 120px;
   margin-bottom: 10px;
@@ -299,6 +311,18 @@ footer{
 
 /* Mobile */
 @media(max-width:600px){
+  #contentModal{
+    width: 80%;
+    flex-direction: column-reverse;
+    overflow-x: scroll;
+    height: 300px;
+  }
+  .card{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
   .butoes{
     flex-direction: column;
   }
@@ -338,9 +362,6 @@ footer{
   }
 }
 @media(max-width: 450px) {
-  #contentModal{
-    flex-direction: column;
-  }
   .logo{
     width: 250px;
   }
