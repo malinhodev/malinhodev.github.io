@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-a{
-  text-decoration: none;
-}
-
 /* Variables */
 :root {
   --main-color: #510273;
@@ -20,6 +16,10 @@ a{
   --about-bg-color: #19222e;
 }
 
+a{
+  text-decoration: none;
+  color: var(--main-color);
+}
 
 /* General */
 .italic{
