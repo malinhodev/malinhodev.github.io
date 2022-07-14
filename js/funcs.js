@@ -19,11 +19,16 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                     '<h3>Lista de tarefas</h3>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
-                                '<a href="https://malinhodev.github.io/themedark/" target="_blank"><ion-icon name="sunny-outline"></ion-icon></a>'+
+                                '<a href="https://malinhodev.github.io/themedark/" target="_blank"><ion-icon name="moon-outline"></ion-icon></a>'+
                                 '<h3>Theme-Dark</h3>'+
+                                '</div><!--card-->'+
+                                '<div class="card">'+
+                                '<a href="https://malinhodev.github.io/jogodavelha.github.io/" target="_blank"><ion-icon name="game-controller-outline"></ion-icon></a>'+
+                                '<h3>Jogo da Velha</h3>'+
                                 '</div><!--card-->'+
                                 '</div>'+
                                 '<div id="footerModal">'+
+                                    '<p>Arraste pro lado</p>'+
                                     '<button id="confirmModal">Fechar</button>'+
                                 '</div>'+
                             '</div>'+

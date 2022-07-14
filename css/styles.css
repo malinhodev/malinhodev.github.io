@@ -259,7 +259,7 @@ footer{
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
   font-size: 1.4rem;
   color: var(--main-color);
 }
@@ -288,7 +288,10 @@ footer{
 }
 #footerModal{
   width: 100%;
-  padding: 10px 0;
+}
+#footerModal p {
+  display: none;
+  margin: 10px auto;
 }
 #footerModal #confirmModal{
   width: 80%;
@@ -312,10 +315,15 @@ footer{
 /* Mobile */
 @media(max-width:600px){
   #contentModal{
-    width: 80%;
+    width: 100%;
     flex-direction: column-reverse;
-    overflow-x: scroll;
+    background-color:var(--main-text-color);
+    border-radius: 10px;
+    overflow: scroll;
     height: 300px;
+  }
+  #footerModal p {
+    display: block;
   }
   .card{
     width: 100%;
