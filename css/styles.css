@@ -237,7 +237,7 @@ footer{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   max-width: 600px;
   height: auto;
   background: rgb(255,255,255);
@@ -269,7 +269,6 @@ footer{
 }
 .card ion-icon{
   font-size: 120px;
-  margin-bottom: 10px;
   cursor: pointer;
   transition: .5s;
   border-radius: 50%;

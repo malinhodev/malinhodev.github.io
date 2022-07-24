@@ -11,24 +11,32 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                 '</div>'+
                                 '<div id="contentModal">'+
                                 '<div class="card">'+
-                                    '<a href="https://malinhodev.github.io/malinhodevcalculator/" target="_blank"><ion-icon name="calculator-outline"></ion-icon></a>'+
-                                    '<h3>Calculadora vanilla JS</h3>'+
+                                    '<a href="https://malinhodev.github.io/malinhodevcalculator/" target="_blank"><ion-icon name="calculator-outline"></ion-icon>'+
+                                    '<h3>Calculadora vanilla JS</h3></a>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
-                                    '<a href="https://malinhodev.github.io/todomalinhodev/" target="_blank"><ion-icon name="list-outline"></ion-icon></a>'+
-                                    '<h3>Lista de tarefas</h3>'+
+                                    '<a href="https://malinhodev.github.io/todomalinhodev/" target="_blank"><ion-icon name="list-outline"></ion-icon>'+
+                                    '<h3>Lista de tarefas</h3></a>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
-                                '<a href="https://malinhodev.github.io/themedark/" target="_blank"><ion-icon name="moon-outline"></ion-icon></a>'+
-                                '<h3>Theme-Dark</h3>'+
+                                    '<a href="https://malinhodev.github.io/themedark/" target="_blank"><ion-icon name="moon-outline"></ion-icon>'+
+                                    '<h3>Theme-Dark</h3></a>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
-                                '<a href="https://malinhodev.github.io/jogodavelha/" target="_blank"><ion-icon name="game-controller-outline"></ion-icon></a>'+
-                                '<h3>Jogo da Velha</h3>'+
+                                    '<a href="https://malinhodev.github.io/jogodavelha/" target="_blank"><ion-icon name="game-controller-outline"></ion-icon>'+
+                                    '<h3>Jogo da Velha</h3></a>'+
                                 '</div><!--card-->'+
-                                '</div>'+
+                                '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/quiz/" target="_blank"><ion-icon name="help-outline"></ion-icon></ion-icon>'+
+                                    '<h3>Quiz</h3></a>'+
+                                '</div><!--card-->'+
+                                '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/campo-minado/" target="_blank"><ion-icon name="game-controller-outline"></ion-icon>'+
+                                    '<h3>Campo Minado</h3></a>'+
+                                '</div><!--card-->'+
+                                '</div>'+         
                                 '<div id="footerModal">'+
-                                    '<p>Arraste pro lado</p>'+
+                                    '<p>Arraste para o lado >></p>'+
                                     '<button id="confirmModal">Fechar</button>'+
                                 '</div>'+
                             '</div>'+
