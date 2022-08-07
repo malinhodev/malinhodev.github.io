@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+/*removendo quadrado azul onclick*/
+*{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+  }
+
 /* Variables */
 :root {
   --main-color: #510273;
