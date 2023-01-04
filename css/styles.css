@@ -121,6 +121,11 @@ a{
   color: var(--main-text-color);
   text-decoration: none;
   max-width: 225px;
+  transition: 0.3s;
+}
+
+#email-container a:hover{
+  color: var(--main-color);
 }
 
 #email-container ion-icon {
