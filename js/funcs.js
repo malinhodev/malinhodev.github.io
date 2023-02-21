@@ -34,6 +34,10 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                     '<a href="https://malinhodev.github.io/campo-minado/" target="_blank"><ion-icon name="game-controller-outline"></ion-icon>'+
                                     '<h3>Campo Minado</h3></a>'+
                                 '</div><!--card-->'+
+                                '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/cronometrojs/" target="_blank"><ion-icon name="stopwatch-outline"></ion-icon>'+
+                                    '<h3>Cronômetro</h3></a>'+
+                                '</div><!--card-->'+
                                 '</div>'+         
                                 '<div id="footerModal">'+
                                     '<p>Arraste para o lado >></p>'+
