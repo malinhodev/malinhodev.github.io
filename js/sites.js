@@ -5,7 +5,7 @@ document.querySelectorAll('[data-toggle="open-sites"]').forEach( o => {
         modal.innerHTML = '<div id="modal" class="fadeIn">'+
                              '<div id="containerModal" class="zoomIn">'+
                                  '<div id="headerModal">'+
-                                     '<h2>Portifólio</h2>'+
+                                     '<h2>Portifólio de Sites</h2>'+
                                  '</div>'+
                                  '<div id="contentModal">'+
                                  '<div class="card">'+
@@ -20,10 +20,11 @@ document.querySelectorAll('[data-toggle="open-sites"]').forEach( o => {
                                      '<a href="https://agenciacode68.com" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
                                      '<h3>Agência Code 68</h3></a>'+
                                  '</div><!--card-->'+
-                                          
+                                 '</div>'+      
                                  '<div id="footerModal">'+
                                      '<p>Arraste para o lado >></p>'+
                                      '<button id="confirmModal">Fechar</button>'+
+                                     
                                  '</div>'+
                              '</div>'+
                          '</div>'

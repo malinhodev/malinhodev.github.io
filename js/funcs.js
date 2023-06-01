@@ -38,6 +38,14 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                     '<a href="https://malinhodev.github.io/cronometrojs/" target="_blank"><ion-icon name="stopwatch-outline"></ion-icon>'+
                                     '<h3>Cronômetro</h3></a>'+
                                 '</div><!--card-->'+
+                                '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/relogiodigital/" target="_blank"><ion-icon name="time-outline"></ion-icon>'+
+                                    '<h3>Relógio Digital</h3></a>'+
+                                '</div><!--card-->'+
+                                '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/conversordeunidades/" target="_blank"><ion-icon name="-outline"></ion-icon>'+
+                                    '<h3>Conversor de unidades</h3></a>'+
+                                '</div><!--card-->'+
                                 '</div>'+         
                                 '<div id="footerModal">'+
                                     '<p>Arraste para o lado >></p>'+

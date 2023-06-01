@@ -10,7 +10,20 @@
 *{
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
   }
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+  background: var(--border-color);        /* color of the tracking area */
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid var(--border-color);  /* creates padding around scroll thumb */
+}
 /* Variables */
 :root {
   --main-color: #510273;
@@ -243,21 +256,26 @@ footer{
   z-index: 999;
 }
 #containerModal{
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 85%;
   max-width: 600px;
+  overflow-y: scroll;
   height: auto;
+  max-height: 600px;
   background: rgb(255,255,255);
   border-radius: 3px;
-  padding: 30px 10px;
+  padding: 10px 10px;
   text-align: center;
   box-shadow: 0 10px 10px 0px rgb(200,200,200);
 }
 #headerModal{
-  width: 100%;   
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 10px; 
 }
 #headerModal h2{
   font-size: 1.5rem;
@@ -330,6 +348,9 @@ footer{
     border-radius: 10px;
     overflow: scroll;
     height: 300px;
+  }
+  #containerModal{
+    overflow-y:hidden;
   }
   #footerModal p {
     display: block;
