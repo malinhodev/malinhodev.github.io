@@ -43,8 +43,12 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                     '<h3>Relógio Digital</h3></a>'+
                                 '</div><!--card-->'+
                                 '<div class="card">'+
-                                    '<a href="https://malinhodev.github.io/conversordeunidades/" target="_blank"><ion-icon name="-outline"></ion-icon>'+
+                                    '<a href="https://malinhodev.github.io/conversordeunidades/" target="_blank"><ion-icon name="filter-outline"></ion-icon>'+
                                     '<h3>Conversor de unidades</h3></a>'+
+                                '</div><!--card-->'+
+                                '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/citacoes/" target="_blank"><ion-icon name="chatbox-outline"></ion-icon>'+
+                                    '<h3>Citações</h3></a>'+
                                 '</div><!--card-->'+
                                 '</div>'+         
                                 '<div id="footerModal">'+
