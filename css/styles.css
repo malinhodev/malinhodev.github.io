@@ -274,8 +274,13 @@ footer{
 }
 #headerModal{
   width: 100%;
-  margin-bottom: 280px;
+  margin-bottom: 300px;
   margin-top: 10px; 
+}
+#headerModal-site{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 #headerModal h2{
   font-size: 1.5rem;

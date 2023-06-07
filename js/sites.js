@@ -4,7 +4,7 @@ document.querySelectorAll('[data-toggle="open-sites"]').forEach( o => {
         modal.setAttribute("id","modal")
         modal.innerHTML = '<div id="modal" class="fadeIn">'+
                              '<div id="containerModal" class="zoomIn">'+
-                                 '<div id="headerModal">'+
+                                 '<div id="headerModal-site">'+
                                      '<h2>Portifólio de Sites</h2>'+
                                  '</div>'+
                                  '<div id="contentModal">'+
