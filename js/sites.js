@@ -9,6 +9,10 @@ document.querySelectorAll('[data-toggle="open-sites"]').forEach( o => {
                                  '</div>'+
                                  '<div id="contentModal">'+
                                  '<div class="card">'+
+                                     '<a href="https://malinhodev.github.io/whatsappwebclone/" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
+                                     '<h3>Whatsapp webclone</h3></a>'+
+                                 '</div><!--card-->'+
+                                 '<div class="card">'+
                                      '<a href="https://espacoluanaaguiar.agenciacode68.com" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
                                      '<h3>Espaço Luana Aguiar</h3></a>'+
                                  '</div><!--card-->'+
