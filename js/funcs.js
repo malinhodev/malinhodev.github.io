@@ -50,7 +50,6 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                     '<a href="https://malinhodev.github.io/citacoes/" target="_blank"><ion-icon name="chatbox-outline"></ion-icon>'+
                                     '<h3>Citações</h3></a>'+
                                 '</div><!--card-->'+
-                                '</div>'+
                                 '<div class="card">'+
                                     '<a href="https://malinhodev.github.io/numerosloteria/" target="_blank"><ion-icon name="remove-circle-outline"></ion-icon>'+
                                     '<h3>Gerador de números lotofácil</h3></a>'+
