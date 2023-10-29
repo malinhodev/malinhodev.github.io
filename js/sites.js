@@ -21,11 +21,11 @@ document.querySelectorAll('[data-toggle="open-sites"]').forEach( o => {
                                      '<h3>Whatsapp webclone</h3></a>'+
                                  '</div><!--card-->'+
                                  '<div class="card">'+
-                                     '<a href="https://espacoluanaaguiar.agenciacode68.com" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
+                                     '<a href="https://espacoluanaaguiar.c68.com.br" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
                                      '<h3>Espaço Luana Aguiar</h3></a>'+
                                  '</div><!--card-->'+
                                  '<div class="card">'+
-                                     '<a href="https://manoscell.agenciacode68.com" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
+                                     '<a href="https://manoscell.c68.com.br" target="_blank"><ion-icon name="tv-outline"></ion-icon>'+
                                      '<h3>Manos Cell</h3></a>'+
                                  '</div><!--card-->'+
                                  '<div class="card">'+
