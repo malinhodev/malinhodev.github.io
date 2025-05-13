@@ -11,6 +11,10 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                 '</div>'+
                                 '<div id="contentModal">'+
                                 '<div class="card">'+
+                                    '<a href="https://malinhodev.github.io/cardapio-online/" target="_blank"><ion-icon name="book-outline"></ion-icon>'+
+                                    '<h3>Cardápio online</h3></a>'+
+                                '</div><!--card-->'+    
+                                '<div class="card">'+
                                     '<a href="https://malinhodev.github.io/malinhodevcalculator/" target="_blank"><ion-icon name="calculator-outline"></ion-icon>'+
                                     '<h3>Calculadora vanilla JS</h3></a>'+
                                 '</div><!--card-->'+
@@ -52,7 +56,7 @@ document.querySelectorAll('[data-toggle="open-modal"]').forEach( o => {
                                 '</div><!--card-->'+
                                 '<div class="card">'+
                                     '<a href="https://malinhodev.github.io/numerosloteria/" target="_blank"><ion-icon name="remove-circle-outline"></ion-icon>'+
-                                    '<h3>Gerador de números lotofácil</h3></a>'+
+                                    '<h3>Gerador de números loteria</h3></a>'+
                                 '</div><!--card-->'+
                                 '</div>'+          
                                 '<div id="footerModal">'+
